@@ -3,7 +3,7 @@
       "service_worker": "service_worker.js",
       "type": "module"
    },
-   "description": "keeps chrome from closing when the last tab is closed by creating a pinned tab when there is one tab left. This is a BATE version of Live On MV3",
+   "description": "keeps chrome from closing when the last tab is closed by creating a pinned tab when there is one tab left. This is a BATE version",
    "icons": {
       "128": "icon128.png",
       "48": "icon48.png"

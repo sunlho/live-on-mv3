@@ -1,0 +1,17 @@
+{
+   "background": {
+      "service_worker": "service_worker.js",
+      "type": "module"
+   },
+   "description": "keeps chrome from closing when the last tab is closed by creating a pinned tab when there is one tab left.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "Live On MV3",
+   "permissions": [
+      "tabs"
+   ],
+   "version": "0.4"
+}

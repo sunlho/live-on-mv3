@@ -1,3 +1,5 @@
+import "./options.css";
+
 const settingsKey = "is_over_two_tabs_keep_pinned";
 const checkbox = document.querySelector<HTMLInputElement>(
   "#is-over-two-tabs-keep-pinned"

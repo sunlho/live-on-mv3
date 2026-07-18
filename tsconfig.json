@@ -9,7 +9,8 @@
       "WebWorker"
     ],
     "types": [
-      "chrome-types"
+      "chrome-types",
+      "vite/client"
     ],
     "strict": true,
     "noEmit": true,

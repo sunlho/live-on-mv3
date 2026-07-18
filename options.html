@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Live On MV3 Settings</title>
+    <link rel="stylesheet" href="./options.css" />
+  </head>
+  <body>
+    <main class="settings">
+      <h1>Live On MV3 Settings</h1>
+      <label class="setting">
+        <input id="is-over-two-tabs-keep-pinned" type="checkbox" />
+        <span>Keep the new pinned tab when there are more than two tabs</span>
+      </label>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="./src/options.ts"></script>
+  </body>
+</html>

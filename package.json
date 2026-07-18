@@ -1,9 +1,10 @@
 {
 	"scripts": {
-		"build": "vite build"
+		"build": "vite build",
+		"build:dev": "vite build --mode development"
 	},
 	"devDependencies": {
-		"chrome-types": "^0.1.375",
-		"vite": "^7.1.5"
+		"chrome-types": "^0.1.435",
+		"vite": "^8.1.5"
 	}
 }

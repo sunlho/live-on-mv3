@@ -12,7 +12,9 @@
    "name": "Live On MV3",
    "permissions": [
       "tabs",
-      "activeTab"
+      "activeTab",
+      "storage"
    ],
-   "version": "0.5"
+   "options_page": "options.html",
+   "version": "0.6"
 }

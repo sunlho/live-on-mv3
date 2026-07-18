@@ -1,0 +1,41 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+  color: CanvasText;
+  background: Canvas;
+}
+
+.settings {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0 0 24px;
+}
+
+.setting {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.setting input {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+}
+
+#status {
+  min-height: 1.5em;
+  margin: 16px 0 0 28px;
+  color: #188038;
+}
